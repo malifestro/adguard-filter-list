@@ -183,40 +183,10 @@
         "Validate"
       ]
     },
-    {
-      "name": "BarbBlock",
-      "source": "https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt",
-      "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
+        {
       "name": "Winhelp MVPS Hosts",
       "source": "https://winhelp2002.mvps.org/hosts.txt",
       "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
-      "name": "uBlock filters - Default",
-      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt",
-      "type": "adblock",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
-      "name": "uBlock filters – Badware risks",
-      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt",
-      "type": "adblock",
       "transformations": [
         "RemoveComments",
         "Compress",
@@ -244,16 +214,6 @@
       ]
     },
     {
-      "name": "uBlock filters – Unbreak",
-      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt",
-      "type": "adblock",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
       "name": "OISD Big List",
       "source": "../oisd.txt",
       "type": "adblock",
@@ -266,16 +226,6 @@
     {
       "name": "Lightswitch05 - Ads and Tracking",
       "source": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
-      "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
-      "name": "Lightswitch05 - Facebook",
-      "source": "https://www.github.developerdan.com/hosts/lists/facebook-extended.txt",
       "type": "hosts",
       "transformations": [
         "RemoveComments",
@@ -436,16 +386,6 @@
     {
       "name": "anudeepND - Adservers",
       "source": "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt",
-      "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
-      "name": "anudeepND - Facebook",
-      "source": "https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt",
       "type": "hosts",
       "transformations": [
         "RemoveComments",
