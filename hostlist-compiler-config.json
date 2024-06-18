@@ -1,7 +1,7 @@
 {
-  "name": "ppfeufer/adguard-filter-list",
+  "name": "malifestro/adguard-filter-list",
   "description": "DNS block list that can be used for AdGuardHome. (Does not work with Pi-hole)",
-  "homepage": "https://github.com/ppfeufer/adguard-filter-list",
+  "homepage": "https://github.com/malifestro/adguard-filter-list",
   "license": "GPLv3",
   "sources": [
     {
@@ -206,16 +206,6 @@
     {
       "name": "uBlock filters – Resource abuse",
       "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt",
-      "type": "adblock",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
-      "name": "OISD Big List",
-      "source": "../oisd.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
